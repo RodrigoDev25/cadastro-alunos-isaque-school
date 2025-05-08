@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-cadastrar.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Voltar</a>
+    </header>
+
+    <main>
+        <h1>Faça Seu Cadastro</h1>
+        <form action="cadastrou.html" method="get">
+            <label for="nome">Digite seu Nome</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+            <br><br>
+
+            <label for="responsavel">Nome do responsável</label><br>
+            <input type="text" id="responsavel" name="responsavel" placeholder="Nome do responsável" required>
+            <br><br>
+
+            <label for="idade">Idade</label><br>
+            <input type="number" id="idade" name="idade" placeholder="Idade (Apenas números)" required>
+            <br><br>
+
+            <label for="email">Digite seu email</label><br>
+            <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+            <br><br>
+
+            <label for="senha">Digite sua senha</label><br>
+            <input type="password" id="senha" name="senha" required>
+            <br><br>
+
+            <button type="submit">Enviar Cadastro</button>
+        </form>
+    </main>
+</body>
+</html>

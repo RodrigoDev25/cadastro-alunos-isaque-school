@@ -8,40 +8,28 @@
 </head>
 <body>
     <header>
-        <a href="login.html">Login</a>
+        <a href="index.html">Login</a>
         |
-        <a href="cadastro.html">Cadastre-se</a>
+        <a href="cadastrar.html">Cadastre-se</a>
     </header>
 
     <main>
-    <img src="img/Isaque.png" alt="logo github" id="logo">
-    <h1> Página de Login </h1>
-    <br><br>
-        <form>
-        <label  for="email">
-            Digite seu email
-        </label>
-        <br>
+        <img src="img/Isaque.png" alt="logo github" id="logo">
+        <h1>Página de Login</h1><br><br>
 
-        <input id="l1" type="email" id="email">      
-        <br><br>
+        <form action="entrou.html" method="get">
+            <label for="email">Digite seu email</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
 
-        <label for="senha">
-            Digite sua senha
-        </label>
-        <br>
+            <label for="senha">Digite sua senha</label>
+            <br>
+            <input type="password" id="senha" name="senha" required>
+            <br><br>
 
-        <input id="l2" type="password" id="senha">  
-        <br><br>
-
-        
-         <button>
-            <a href="entrou.html">  Entrar </a>
-        </button>
-        <br><br><br>
-        
-         
-     </form>   
+            <button type="submit">Entrar</button>
+        </form>
     </main>
 </body>
 </html>

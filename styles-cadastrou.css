@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* incluir padding e border no tamanho total de um elemento */
+}
+
+body {
+    height: 100vh;
+    margin-top: 40px; /* você pode remover isso se quiser centralização total */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* empilha os elementos verticalmente */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+button {
+    background-color: green;
+    margin-top: 20px;
+    padding: 8px 33px;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(55, 230, 55);
+}
